@@ -1,0 +1,178 @@
+.nat2{
+    display: flexbox;
+    text-align: left;
+}
+
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+img{
+width:300px;
+border-radius: 30px;
+
+
+}
+
+.main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: relative;
+    
+    
+}
+
+.header{
+    height: 500px;
+}
+
+.cabeleireiro{
+    flex-grow: 1;
+}
+
+.trancista{
+    flex-grow: 1;
+}
+
+.penteados{
+    flex-grow: 1;
+}
+
+.sobreNos{
+    position: relative;
+    display: flex;
+    align-items: first baseline;
+}
+
+.nosR{
+    position: absolute;
+    left: 50%;
+    text-align: justify;
+    margin: 25px 20px 25px 8px ;
+
+}
+
+.nosL{
+    position: relative;
+
+    height: 500px;
+    background-color:#0097B2;
+    width: 475px;
+    border-radius: 1px;
+}
+
+#sobre{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    right: 25px;
+    width: 400px;
+    height: 450px;
+
+}
+
+.nat{
+    text-align: right;
+}
+
+.listra{
+    height: 10px;
+    background-color: #0097B2   ;
+    margin: 0px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.linha{
+    background: #0097B2;
+    height: 500px;
+    width: 5px;
+    margin: 100px 20px 10px 20px;
+}
+
+ul{
+    align-items: center;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.venha{
+    display: flexbox;
+    justify-content: center;
+    background-color: #0097B2;  
+    height: 250px;  
+    position: relative;
+}
+
+.A :hover{
+    
+    background-color: black;
+    color: #0097B2;
+    border: black 10px solid;
+    border-radius:  5px; ;
+
+}
+
+.A{
+    text-align: center;
+    font-size: 25px;   
+}
+
+.ex1{
+    margin: 5px 5px 5px 5px;
+    width: 50px;
+    background-position: 100%;
+}
+
+#ex1{
+    margin: 0;
+    
+}
+
+.contato{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ex2{
+    font-size: 20px;
+}
+
+.zap{
+    display:flex;
+    align-items: center;
+}
+
+.insta{
+    display:flex;
+    align-items: center;
+}
+
+.link{
+    display:flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+}
+

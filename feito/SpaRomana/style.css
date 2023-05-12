@@ -1,0 +1,115 @@
+    img{
+    height: 300px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/31/31098.png);
+    background-repeat: repeat-y;
+    background-size: 500px;
+    background-position:center;
+    
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: #D65A5A;
+}
+
+.main{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicos{
+    display: flex;
+    max-width: 75%;
+    max-height: 300px;
+    background-color: #D65A5A;
+    border-right: #D65A5A solid 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: #D65A5A solid 5px;
+    border-bottom: #D65A5A solid 5px;
+    align-items: center;
+    
+}
+
+.L{
+    margin-left: 20px;
+    margin-right: 20px;   
+    font-size: 20px;
+}
+
+.linhaV{
+    height: 200px;
+    width: 7px;
+    background-color: white;
+}
+
+.colaboradores{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 25%;   
+    margin-top: 200px; 
+    flex-direction: row-reverse;
+    background-color: #D65A5A;
+    border-left: #D65A5A solid 10px;
+    border-top: #D65A5A solid 5px;
+    border-bottom: #D65A5A solid 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    align-items: center;
+}
+
+.R{
+    margin-left: 20px;
+    margin-right: 20px;   
+    font-size: 20px;
+    text-align: end;
+}
+
+.contato{
+    display: flex;
+    max-width: 75%;
+    max-height: 300px;
+    margin-top: 200px;
+    background-color: #D65A5A;
+    border-right: #D65A5A solid 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: #D65A5A solid 5px;
+    border-bottom: #D65A5A solid 5px;
+    align-items: center;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+.C{
+    width: 30px;
+    height: auto;
+}
+
+#Email{
+    width: 50px;
+}
+
+#twitter{
+    width: 40px;
+}
+
+.linhaVp{
+    height: 65px;
+    width: 1px;
+    background-color: white;
+}

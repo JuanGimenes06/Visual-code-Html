@@ -1,0 +1,163 @@
+ img{
+    width: 300px;
+ }
+
+ body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #b0d8b8;
+ }
+
+ a{
+   text-decoration: none;
+   color: black;
+   background-color: #b0d8b8;
+   border: #b0d8b8 3px;
+   border-radius: 10px;
+   min-width: 200px;
+   text-align: center;
+ }
+ .header{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20px;
+   background-color: #060606;
+ }
+
+.titulo-h1{
+   text-align: center;
+   margin: 50px 0px 50px
+   
+}
+
+.subtexto{
+   
+   margin: 5px 5px 5px 20px;
+}
+
+.texto-img{
+   display: flex;
+   justify-content: space-around;
+   align-items:start;
+   margin: 0px 0px 100px;
+}
+
+#Lorem1{
+   width: 300px;
+   text-align: end;
+   margin: 0px 0px;
+   font-size: 20px;
+   
+}
+
+#Lorem2{
+   width: 300px;
+   text-align: start;
+
+   font-size: 20px;
+}
+
+.texto-img2{
+   display: flex;
+   justify-content: space-around;
+   align-items:start;
+   flex-direction: row-reverse;
+   margin: 0px 0px 100px;  
+   
+}
+
+.header :hover{
+   background-color: #060606;
+   color: #e4e4e4;
+}
+
+.Produto2{
+   display: flex;
+   justify-content: center;
+   align-items:start;
+   flex-direction: row;
+   margin: 0px 0px 100px;  
+}
+
+.Produto1{
+   display: flex;
+   justify-content: center;
+   align-items:end;
+   flex-direction: row-reverse;
+   margin: 0px 0px 100px;  
+}
+
+#descricao{
+   width: 300px;
+   text-align: start;
+   margin: 0px 0px;
+   font-size: 20px;
+   margin: 5px 5px 5px 5px;
+}
+
+#descricao2{
+      width: 300px;
+      text-align: end;
+      margin: 0px 0px;
+      font-size: 20px;
+      margin: 5px 5px 5px 5px;
+}
+
+.ProdutoP2{
+   display: flex;
+   justify-content: center;
+   align-items:start;
+   flex-direction: row-reverse;
+   margin: 0px 0px 100px;  
+}
+
+.ProdutoP1{
+   display: flex;
+   justify-content: center;
+   align-items:start;
+   flex-direction: row;
+   margin: 0px 0px 100px; 
+    
+}
+
+.formulario {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+
+.form{
+   display: flex;
+   justify-content: center;
+   background-color:hwb(0 89% 11%) ;
+   border-radius: 5px;
+   margin: 0px 500px 0px 500px
+}   
+
+button{
+   margin: 10px;
+   border-radius: 10px;
+   min-width: 80px;
+   border: #b0d8b8
+   
+}
+
+input{
+   width: 300px;
+   margin: 5px 0px 5px 7px
+}
+
+p{
+   background-color: #ffffff17;
+   border-radius: 5px;
+   
+}
+
+
+
+
+
+
+
+
+
+
